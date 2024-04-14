@@ -1,10 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client'
+import Landing from '../components/landing'
+import Projects from '../components/projects'
 
 export default function Home() {
+ 
+
   return (
-    <main className={styles.main}>
-      
-    </main>
+    <>
+    {/* <Landing/> */}
+    <Projects/>
+    </>
   );
 }

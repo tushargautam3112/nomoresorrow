@@ -1,0 +1,9 @@
+@font-face {
+  font-family: tu;
+  src: url(../../public/fonts/HelveticaNeueRoman.otf);
+}
+*{
+  font-family: tu;
+  margin: 0;
+  padding: 0;
+}
